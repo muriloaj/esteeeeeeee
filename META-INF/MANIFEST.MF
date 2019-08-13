@@ -1,0 +1,35 @@
+Manifest-Version: 1.0
+Plugin-Dependencies: META-INF/lib/sonar-ws-7.0.jar META-INF/lib/jackso
+ n-core-2.5.3.jar META-INF/lib/java-gitlab-api-1.3.0.jar META-INF/lib/
+ commons-io-2.4.jar META-INF/lib/freemarker-2.3.23.jar META-INF/lib/ja
+ ckson-databind-2.5.3.jar META-INF/lib/jackson-annotations-2.5.0.jar M
+ ETA-INF/lib/commons-lang3-3.5.jar META-INF/lib/protobuf-java-3.0.0-be
+ ta-2.jar META-INF/lib/okio-1.12.0.jar META-INF/lib/okhttp-3.7.0.jar M
+ ETA-INF/lib/guava-18.0.jar
+Plugin-Description: GitLab Plugin for Reporting
+Plugin-BuildDate: 2018-09-06T10:03:38+0200
+Plugin-Display-Version: 4.0.0
+Archiver-Version: Plexus Archiver
+Built-By: Gaby
+Plugin-Organization: Talanlabs
+Plugin-Developers: Gabriel Allaigre
+Plugin-IssueTrackerUrl: https://github.com/gabrie-allaigre/sonar-gitla
+ b-plugin/issues
+Plugin-ChildFirstClassLoader: false
+Plugin-OrganizationUrl: http://www.talanlabs.com
+Plugin-Key: gitlab
+Plugin-Class: com.talanlabs.sonar.plugins.gitlab.GitLabPlugin
+Plugin-Name: GitLab
+Plugin-SourcesUrl: https://github.com/gabrie-allaigre/sonar-gitlab-plu
+ gin
+SonarLint-Supported: false
+Plugin-Homepage: https://github.com/gabrie-allaigre/sonar-gitlab-plugi
+ n
+Plugin-License: GNU LGPL 3
+Plugin-Version: 4.0.0
+Sonar-Version: 7.0
+Implementation-Build: 446268a94ea30c482c1441766cd1c404c2cd9d52
+Build-Time: 2018-09-06T08:03:17+0000
+Created-By: Apache Maven 3.3.3
+Build-Jdk: 1.8.0_102
+
